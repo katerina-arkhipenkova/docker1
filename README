@@ -1,0 +1,5 @@
+Сборка образа:
+docker build . -t my_nginx
+
+Запуск:
+docker run -d -p 7777:80 my_nginx
